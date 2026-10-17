@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#080a14"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00c875" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="900" height="540" rx="16" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="60" x2="900" y2="60"/>
+    <line x1="0" y1="120" x2="900" y2="120"/>
+    <line x1="0" y1="180" x2="900" y2="180"/>
+    <line x1="0" y1="240" x2="900" y2="240"/>
+    <line x1="0" y1="300" x2="900" y2="300"/>
+    <line x1="0" y1="360" x2="900" y2="360"/>
+    <line x1="0" y1="420" x2="900" y2="420"/>
+    <line x1="0" y1="480" x2="900" y2="480"/>
+    <line x1="150" y1="0" x2="150" y2="540"/>
+    <line x1="300" y1="0" x2="300" y2="540"/>
+    <line x1="450" y1="0" x2="450" y2="540"/>
+    <line x1="600" y1="0" x2="600" y2="540"/>
+    <line x1="750" y1="0" x2="750" y2="540"/>
+  </g>
+
+  <!-- Window Header -->
+  <rect x="0" y="0" width="900" height="48" rx="16" fill="#0b0f19" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+  <circle cx="28" cy="24" r="6" fill="#ff5f56"/>
+  <circle cx="48" cy="24" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="24" r="6" fill="#27c93f"/>
+  <text x="450" y="29" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">WordPress Admin &rsaquo; Elix Forms to monday.com &rsaquo; Visual Field Mapping</text>
+
+  <!-- Left Column: Contact Form 7 Fields -->
+  <g transform="translate(40, 75)">
+    <!-- Header -->
+    <rect width="360" height="50" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <rect x="14" y="15" width="20" height="20" rx="4" fill="#0073ea"/>
+    <text x="24" y="29" fill="#fff" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">CF7</text>
+    <text x="44" y="27" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="700">Contact Form 7 Fields</text>
+    <text x="44" y="41" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Source: Enterprise Contact Form (#1042)</text>
+    <rect x="290" y="16" width="56" height="20" rx="10" fill="#0073ea" fill-opacity="0.15" stroke="#0073ea" stroke-opacity="0.3"/>
+    <text x="318" y="30" fill="#60a5fa" font-family="monospace" font-size="10" font-weight="bold" text-anchor="middle">5 Fields</text>
+
+    <!-- Field 1: Name -->
+    <g transform="translate(0, 65)">
+      <rect width="360" height="60" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="16" y="26" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Full Name</text>
+      <text x="16" y="44" fill="#94a3b8" font-family="monospace" font-size="11">[your-name]*</text>
+      <rect x="260" y="18" width="85" height="24" rx="6" fill="#334155"/>
+      <text x="302" y="34" fill="#cbd5e1" font-family="monospace" font-size="10" text-anchor="middle">Type: text</text>
+    </g>
+
+    <!-- Field 2: Email -->
+    <g transform="translate(0, 135)">
+      <rect width="360" height="60" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="16" y="26" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Business Email</text>
+      <text x="16" y="44" fill="#94a3b8" font-family="monospace" font-size="11">[your-email]*</text>
+      <rect x="260" y="18" width="85" height="24" rx="6" fill="#334155"/>
+      <text x="302" y="34" fill="#cbd5e1" font-family="monospace" font-size="10" text-anchor="middle">Type: email</text>
+    </g>
+
+    <!-- Field 3: Phone -->
+    <g transform="translate(0, 205)">
+      <rect width="360" height="60" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="16" y="26" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Direct Phone</text>
+      <text x="16" y="44" fill="#94a3b8" font-family="monospace" font-size="11">[your-phone]</text>
+      <rect x="260" y="18" width="85" height="24" rx="6" fill="#334155"/>
+      <text x="302" y="34" fill="#cbd5e1" font-family="monospace" font-size="10" text-anchor="middle">Type: tel</text>
+    </g>
+
+    <!-- Field 4: Company -->
+    <g transform="translate(0, 275)">
+      <rect width="360" height="60" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="16" y="26" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Company Name</text>
+      <text x="16" y="44" fill="#94a3b8" font-family="monospace" font-size="11">[company-name]</text>
+      <rect x="260" y="18" width="85" height="24" rx="6" fill="#334155"/>
+      <text x="302" y="34" fill="#cbd5e1" font-family="monospace" font-size="10" text-anchor="middle">Type: text</text>
+    </g>
+
+    <!-- Field 5: Message -->
+    <g transform="translate(0, 345)">
+      <rect width="360" height="60" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="16" y="26" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Project Requirements</text>
+      <text x="16" y="44" fill="#94a3b8" font-family="monospace" font-size="11">[your-message]</text>
+      <rect x="260" y="18" width="85" height="24" rx="6" fill="#334155"/>
+      <text x="302" y="34" fill="#cbd5e1" font-family="monospace" font-size="10" text-anchor="middle">Type: textarea</text>
+    </g>
+  </g>
+
+  <!-- Connective Arrows & Lines -->
+  <g stroke="url(#lineGrad)" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <!-- Line 1: Name -->
+    <path d="M 400 170 C 450 170, 450 170, 500 170"/>
+    <circle cx="450" cy="170" r="4" fill="#8b5cf6"/>
+
+    <!-- Line 2: Email -->
+    <path d="M 400 240 C 450 240, 450 240, 500 240"/>
+    <circle cx="450" cy="240" r="4" fill="#8b5cf6"/>
+
+    <!-- Line 3: Phone -->
+    <path d="M 400 310 C 450 310, 450 310, 500 310"/>
+    <circle cx="450" cy="310" r="4" fill="#8b5cf6"/>
+
+    <!-- Line 4: Company -->
+    <path d="M 400 380 C 450 380, 450 380, 500 380"/>
+    <circle cx="450" cy="380" r="4" fill="#8b5cf6"/>
+
+    <!-- Line 5: Message -->
+    <path d="M 400 450 C 450 450, 450 450, 500 450"/>
+    <circle cx="450" cy="450" r="4" fill="#8b5cf6"/>
+  </g>
+
+  <!-- Right Column: monday.com Board Columns -->
+  <g transform="translate(500, 75)">
+    <!-- Header -->
+    <rect width="360" height="50" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <rect x="14" y="15" width="20" height="20" rx="4" fill="#a25ddc"/>
+    <circle cx="24" cy="25" r="4" fill="#fff"/>
+    <text x="44" y="27" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="700">monday.com Columns</text>
+    <text x="44" y="41" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Board: Enterprise Lead Inflow (GraphQL v2)</text>
+    <rect x="290" y="16" width="56" height="20" rx="10" fill="#00c875" fill-opacity="0.15" stroke="#00c875" stroke-opacity="0.3"/>
+    <text x="318" y="30" fill="#34d399" font-family="monospace" font-size="10" font-weight="bold" text-anchor="middle">Synced</text>
+
+    <!-- Column 1: Item Name -->
+    <g transform="translate(0, 65)">
+      <rect width="360" height="60" rx="10" fill="#1e293b" stroke="#00c875" stroke-opacity="0.5" stroke-width="1"/>
+      <text x="16" y="26" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Item Name (Pulse)</text>
+      <text x="16" y="44" fill="#c4b5fd" font-family="monospace" font-size="11">{your-name} - {company}</text>
+      <rect x="250" y="18" width="95" height="24" rx="6" fill="#0073ea" fill-opacity="0.2"/>
+      <text x="297" y="34" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Item Title</text>
+    </g>
+
+    <!-- Column 2: Email -->
+    <g transform="translate(0, 135)">
+      <rect width="360" height="60" rx="10" fill="#1e293b" stroke="#00c875" stroke-opacity="0.5" stroke-width="1"/>
+      <text x="16" y="26" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Lead Email</text>
+      <text x="16" y="44" fill="#c4b5fd" font-family="monospace" font-size="11">Mapped &rarr; email_column</text>
+      <rect x="250" y="18" width="95" height="24" rx="6" fill="#00c875" fill-opacity="0.2"/>
+      <text x="297" y="34" fill="#4ade80" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Email Col</text>
+    </g>
+
+    <!-- Column 3: Phone -->
+    <g transform="translate(0, 205)">
+      <rect width="360" height="60" rx="10" fill="#1e293b" stroke="#00c875" stroke-opacity="0.5" stroke-width="1"/>
+      <text x="16" y="26" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Contact Number</text>
+      <text x="16" y="44" fill="#c4b5fd" font-family="monospace" font-size="11">Mapped &rarr; phone_e164</text>
+      <rect x="250" y="18" width="95" height="24" rx="6" fill="#ffbd2e" fill-opacity="0.2"/>
+      <text x="297" y="34" fill="#fde047" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Phone Col</text>
+    </g>
+
+    <!-- Column 4: Account Name -->
+    <g transform="translate(0, 275)">
+      <rect width="360" height="60" rx="10" fill="#1e293b" stroke="#00c875" stroke-opacity="0.5" stroke-width="1"/>
+      <text x="16" y="26" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Organization</text>
+      <text x="16" y="44" fill="#c4b5fd" font-family="monospace" font-size="11">Mapped &rarr; text_company</text>
+      <rect x="250" y="18" width="95" height="24" rx="6" fill="#0073ea" fill-opacity="0.2"/>
+      <text x="297" y="34" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Text Col</text>
+    </g>
+
+    <!-- Column 5: Status / Notes -->
+    <g transform="translate(0, 345)">
+      <rect width="360" height="60" rx="10" fill="#1e293b" stroke="#00c875" stroke-opacity="0.5" stroke-width="1"/>
+      <text x="16" y="26" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Inquiry Brief</text>
+      <text x="16" y="44" fill="#c4b5fd" font-family="monospace" font-size="11">Mapped &rarr; long_text_notes</text>
+      <rect x="250" y="18" width="95" height="24" rx="6" fill="#a25ddc" fill-opacity="0.2"/>
+      <text x="297" y="34" fill="#c084fc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Long Text</text>
+    </g>
+  </g>
+
+  <!-- Bottom Action & Auto-Map Indicator -->
+  <g transform="translate(40, 490)">
+    <rect width="820" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <circle cx="20" cy="17" r="4" fill="#00c875"/>
+    <text x="32" y="21" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="600">Smart Auto-Mapping Active:</text>
+    <text x="200" y="21" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">Matched 5 fields automatically using schema heuristics. Static Column Value attached: [Lead Source = "Website"].</text>
+  </g>
+</svg>

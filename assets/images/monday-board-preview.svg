@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1320"/>
+      <stop offset="100%" stop-color="#080a14"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="900" height="540" rx="16" fill="url(#mBg)"/>
+
+  <!-- Window Header -->
+  <rect x="0" y="0" width="900" height="48" rx="16" fill="#070911" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+  <circle cx="28" cy="24" r="6" fill="#ff5f56"/>
+  <circle cx="48" cy="24" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="24" r="6" fill="#27c93f"/>
+  <text x="450" y="29" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600" text-anchor="middle">monday.com Work OS &rsaquo; Workspace: Growth &amp; Sales &rsaquo; Board: Inbound Website Leads</text>
+
+  <!-- Monday Board Banner -->
+  <g transform="translate(40, 68)">
+    <rect width="820" height="56" rx="10" fill="#182234" stroke="#334155" stroke-width="1"/>
+    <!-- Monday Icon -->
+    <circle cx="30" cy="28" r="14" fill="#0073ea"/>
+    <path d="M 23 28 L 27 32 L 37 22" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <text x="56" y="27" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="800">Inbound Website Leads (Contact Form 7)</text>
+    <text x="56" y="44" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Real-time sync via Elix Forms to monday.com &bull; Group: Web Inquiries</text>
+    
+    <!-- Live Pulse Indicator -->
+    <rect x="700" y="18" width="105" height="24" rx="12" fill="#00c875" fill-opacity="0.15" stroke="#00c875" stroke-opacity="0.35"/>
+    <circle cx="715" cy="30" r="4" fill="#00c875"/>
+    <text x="760" y="34" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">LIVE SYNC</text>
+  </g>
+
+  <!-- Board Table Header -->
+  <g transform="translate(40, 138)">
+    <rect width="820" height="40" rx="8" fill="#1e293b"/>
+    <text x="20" y="25" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700">Item (Pulse Title)</text>
+    <text x="260" y="25" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700">Email Address</text>
+    <text x="440" y="25" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700">Phone</text>
+    <text x="580" y="25" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700">Status</text>
+    <text x="710" y="25" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700">Created</text>
+  </g>
+
+  <!-- Table Row 1 -->
+  <g transform="translate(40, 186)">
+    <rect width="820" height="64" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+    <!-- Left Indicator Strip -->
+    <rect x="0" y="0" width="4" height="64" rx="2" fill="#0073ea"/>
+    <text x="20" y="28" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700">Alexander Wright - Apex Corp</text>
+    <text x="20" y="46" fill="#94a3b8" font-family="monospace" font-size="11">Lead Source: Website &bull; CF7 ID #1042</text>
+    
+    <text x="260" y="37" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">alex@apexlogistics.io</text>
+    <text x="440" y="37" fill="#cbd5e1" font-family="monospace" font-size="12">+1 (555) 019-2831</text>
+    
+    <!-- Status Pill -->
+    <rect x="580" y="20" width="100" height="26" rx="13" fill="#00c875" fill-opacity="0.18" stroke="#00c875" stroke-opacity="0.4"/>
+    <text x="630" y="37" fill="#4ade80" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="700" text-anchor="middle">New Lead</text>
+    
+    <text x="710" y="37" fill="#64748b" font-family="monospace" font-size="11">Just Now</text>
+  </g>
+
+  <!-- Table Row 2 -->
+  <g transform="translate(40, 258)">
+    <rect width="820" height="64" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="64" rx="2" fill="#a25ddc"/>
+    <text x="20" y="28" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700">Sophia Chen - Vertex Health</text>
+    <text x="20" y="46" fill="#94a3b8" font-family="monospace" font-size="11">Lead Source: Website &bull; CF7 ID #1042</text>
+    
+    <text x="260" y="37" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">sophia.chen@vertex.org</text>
+    <text x="440" y="37" fill="#cbd5e1" font-family="monospace" font-size="12">+1 (555) 482-1920</text>
+    
+    <!-- Status Pill -->
+    <rect x="580" y="20" width="100" height="26" rx="13" fill="#ffcb00" fill-opacity="0.18" stroke="#ffcb00" stroke-opacity="0.4"/>
+    <text x="630" y="37" fill="#fde047" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="700" text-anchor="middle">In Review</text>
+    
+    <text x="710" y="37" fill="#64748b" font-family="monospace" font-size="11">4 min ago</text>
+  </g>
+
+  <!-- Table Row 3 -->
+  <g transform="translate(40, 330)">
+    <rect width="820" height="64" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="64" rx="2" fill="#0073ea"/>
+    <text x="20" y="28" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700">Marcus Vance - CloudScale</text>
+    <text x="20" y="46" fill="#94a3b8" font-family="monospace" font-size="11">Lead Source: Website &bull; CF7 ID #908</text>
+    
+    <text x="260" y="37" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">m.vance@cloudscale.net</text>
+    <text x="440" y="37" fill="#cbd5e1" font-family="monospace" font-size="12">+44 20 7946 0912</text>
+    
+    <!-- Status Pill -->
+    <rect x="580" y="20" width="100" height="26" rx="13" fill="#00c875" fill-opacity="0.18" stroke="#00c875" stroke-opacity="0.4"/>
+    <text x="630" y="37" fill="#4ade80" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="700" text-anchor="middle">New Lead</text>
+    
+    <text x="710" y="37" fill="#64748b" font-family="monospace" font-size="11">12 min ago</text>
+  </g>
+
+  <!-- Table Row 4 -->
+  <g transform="translate(40, 402)">
+    <rect width="820" height="64" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="64" rx="2" fill="#00c875"/>
+    <text x="20" y="28" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700">Elena Rostova - NordTech</text>
+    <text x="20" y="46" fill="#94a3b8" font-family="monospace" font-size="11">Lead Source: Website &bull; CF7 ID #1042</text>
+    
+    <text x="260" y="37" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">elena@nordtech.se</text>
+    <text x="440" y="37" fill="#cbd5e1" font-family="monospace" font-size="12">+46 8 123 4567</text>
+    
+    <!-- Status Pill -->
+    <rect x="580" y="20" width="100" height="26" rx="13" fill="#0073ea" fill-opacity="0.18" stroke="#0073ea" stroke-opacity="0.4"/>
+    <text x="630" y="37" fill="#60a5fa" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Contacted</text>
+    
+    <text x="710" y="37" fill="#64748b" font-family="monospace" font-size="11">28 min ago</text>
+  </g>
+
+  <!-- Bottom Info Footer -->
+  <g transform="translate(40, 482)">
+    <rect width="820" height="42" rx="8" fill="#070911" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+    <text x="24" y="26" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">
+      ⚡ <tspan fill="#ffffff" font-weight="bold">Zero Zapier Fees:</tspan> Direct GraphQL v2 API transmission. Average latency: <tspan fill="#34d399" font-family="monospace">118ms</tspan>. 100% Data Integrity.
+    </text>
+  </g>
+</svg>

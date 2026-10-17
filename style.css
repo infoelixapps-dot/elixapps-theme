@@ -1,0 +1,17 @@
+/*
+Theme Name: ElixApps
+Theme URI: https://elixapps.com
+Author: ElixApps Studio
+Author URI: https://elixapps.com
+Description: Modern, high-performance light theme tailored for Monday.com App builders and WordPress Plugin creators. Features crisp white backgrounds, modern typography, interactive showcases, and responsive templates.
+Version: 3.0.0
+Requires at least: 5.8
+Tested up to: 6.5
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: elixapps
+Tags: modern, software, developer, monday-apps, wordpress-plugins, tech, light-theme, white-background, responsive
+*/
+
+/* Core theme file — styles loaded via wp_enqueue_style in functions.php */

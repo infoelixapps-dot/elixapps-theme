@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" width="100%" height="100%">
+  <defs>
+    <linearGradient id="setBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#080a14"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="540" rx="16" fill="url(#setBg)"/>
+
+  <!-- Window Header -->
+  <rect x="0" y="0" width="900" height="48" rx="16" fill="#0b0f19" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+  <circle cx="28" cy="24" r="6" fill="#ff5f56"/>
+  <circle cx="48" cy="24" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="24" r="6" fill="#27c93f"/>
+  <text x="450" y="29" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600" text-anchor="middle">WordPress Settings &rsaquo; Elix Forms to monday.com &rsaquo; API &amp; Board Configuration</text>
+
+  <!-- Settings Container -->
+  <g transform="translate(60, 75)">
+    <!-- Section Title -->
+    <text x="0" y="20" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="800">1. Authenticate monday.com GraphQL API v2</text>
+    <text x="0" y="40" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">Enter your personal API token generated in your monday.com profile settings (Admin &rsaquo; API).</text>
+
+    <!-- API Token Box -->
+    <g transform="translate(0, 55)">
+      <rect width="780" height="52" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="18" y="31" fill="#64748b" font-family="monospace" font-size="12">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eytidWlsZGVySWQiOiJlbGl4X2Zvcm1zX3YyIiwidGltZXN0YW1wIjoxN...••••••••</text>
+      <!-- Verified Badge -->
+      <rect x="640" y="12" width="124" height="28" rx="6" fill="#00c875" fill-opacity="0.2" stroke="#00c875" stroke-opacity="0.4"/>
+      <circle cx="654" cy="26" r="4" fill="#00c875"/>
+      <text x="708" y="30" fill="#4ade80" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Token Verified ✓</text>
+    </g>
+
+    <!-- Workspace & Board Section Title -->
+    <text x="0" y="145" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="800">2. Target Destination Mapping</text>
+    <text x="0" y="165" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">Dynamically loaded from your connected monday.com account via GraphQL introspection.</text>
+
+    <!-- Dropdown Row 1: Workspace -->
+    <g transform="translate(0, 180)">
+      <!-- Label -->
+      <text x="0" y="16" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Select Workspace</text>
+      <rect y="26" width="375" height="46" rx="8" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="16" y="54" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13">Growth &amp; Enterprise Sales (Workspace ID: 819)</text>
+      <path d="M 345 47 L 352 54 L 359 47" stroke="#94a3b8" stroke-width="2" fill="none"/>
+    </g>
+
+    <!-- Dropdown Row 1: Board -->
+    <g transform="translate(405, 180)">
+      <text x="0" y="16" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Select Target Board</text>
+      <rect y="26" width="375" height="46" rx="8" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="16" y="54" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13">Inbound Website Leads (Board ID: 928311)</text>
+      <path d="M 345 47 L 352 54 L 359 47" stroke="#94a3b8" stroke-width="2" fill="none"/>
+    </g>
+
+    <!-- Dropdown Row 2: Group & Form -->
+    <g transform="translate(0, 270)">
+      <text x="0" y="16" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Select Board Group</text>
+      <rect y="26" width="375" height="46" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="16" y="54" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13">New Website Inquiries (group_id: topics)</text>
+      <path d="M 345 47 L 352 54 L 359 47" stroke="#94a3b8" stroke-width="2" fill="none"/>
+    </g>
+
+    <g transform="translate(405, 270)">
+      <text x="0" y="16" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Select Contact Form 7 Form</text>
+      <rect y="26" width="375" height="46" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="16" y="54" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13">Enterprise Demo Request (#1042)</text>
+      <path d="M 345 47 L 352 54 L 359 47" stroke="#94a3b8" stroke-width="2" fill="none"/>
+    </g>
+
+    <!-- Save & Test Buttons -->
+    <g transform="translate(0, 360)">
+      <rect width="180" height="44" rx="8" fill="url(#bgGrad)" stroke="#8b5cf6" stroke-width="1"/>
+      <text x="90" y="27" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Save Connection</text>
+
+      <rect x="195" y="0" width="160" height="44" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="275" y="27" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Test Live Dispatch</text>
+    </g>
+
+    <!-- Privacy Note Box -->
+    <g transform="translate(0, 420)">
+      <rect width="780" height="34" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="16" y="21" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">
+        🔒 <tspan fill="#ffffff" font-weight="bold">Zero Cloud Intermediaries:</tspan> API tokens are stored in the WordPress <tspan font-family="monospace">wp_options</tspan> table with AES-256 encryption.
+      </text>
+    </g>
+  </g>
+</svg>
